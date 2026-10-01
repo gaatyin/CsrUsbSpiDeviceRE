@@ -37,8 +37,8 @@ if errorlevel 1 (
 
 echo.
 echo [OK] ultralytics installed.
-echo Run classification test:
-echo   python test_classify.py
-echo Or with a local image:
-echo   python test_classify.py path\to\image.jpg
+echo Run webcam real-time detection:
+echo   python test_detect_camera.py
+echo Or choose camera / confidence:
+echo   python test_detect_camera.py --camera 0 --conf 0.4
 endlocal
